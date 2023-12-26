@@ -1,0 +1,19 @@
+/* makes text sreen-reader-only */
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.mark {
+  display: inline-block;
+  background-color: var(--yellow);
+}
+
+.bold {
+  color: #000;
+  font-weight: var(--fw-extra-bold);
+}

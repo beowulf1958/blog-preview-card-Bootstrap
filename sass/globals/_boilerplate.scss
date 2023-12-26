@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: Figtree;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: FigtreeItalic;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: var(--yellow);
+  font-family: "Figtree";
+  font-size: var(--fs-main);
+}
+.card {
+  background-color: var(--white);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-title a {
+  text-decoration: none;
+}
+.card-title a:hover {
+  color: var(--yellow);
+  cursor: url(/assets/images/icons8-cursor-32png.png);
+}
+.card-text {
+  color: var(--grey);
+}
+.card-footer {
+  background-color: var(--white);
+  border: none;
+}
+/* footer styles */
+.attribution {
+  font-size: 16px;
+  text-align: center;
+      
+  a {
+    color: hsl(175, 45%, 44%);
+    text-decoration: none;
+  }
+  a:hover {
+    color: hsl(277, 64%, 67%);
+  }
+}

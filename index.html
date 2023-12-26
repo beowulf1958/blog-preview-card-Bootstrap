@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+
+  <body>
+    <h1 class="sr-only">Blog Preview Card Component</h1>
+    <main>
+      <div class="container py-5">
+        <div class="row row-cols-1 py-5">
+          <div class="col">
+            <div class="card mx-auto rounded-4" style="width: 24rem">
+              <div class="img-wrapper m-4">
+                <img
+                  src="./assets/images/illustration-article.svg"
+                  class="card-img-top"
+                  alt="geometric design"
+                />
+              </div>
+              <div class="card-body">
+                <p class="mark">Learning</p>
+                <p class="card-text bold">Published 21 Dec 2023</p>
+                <h5 class="card-title">
+                  <a href="#" class="bold">HTML & CSS foundations</a>
+                </h5>
+                <p class="card-text">
+                  These languages are the backbone of every website, defining
+                  structure, content, and presentation.
+                </p>
+              </div>
+              <!-- end card-body -->
+              <div class="card-footer d-flex p-2 gap-2 mb-3">
+                <div class="avatar mb-2">
+                  <img
+                    src="./assets/images/image-avatar.webp"
+                    alt="avatar of Greg Hooper"
+                    width="30"
+                  />
+                </div>
+                <span class="align-middle bold">Greg Hooper</span>
+              </div>
+              <!-- end card footer -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/beowulf1958"
+          target="_blank"
+          >Jordan Murrin</a
+        >.
+      </div>
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
